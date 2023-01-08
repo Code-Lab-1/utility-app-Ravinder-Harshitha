@@ -1,5 +1,5 @@
 #Vending Machine using Python
-#This python program uses "pandas"
+#This python program uses "pandas" and "DataFrame"
 
 import pandas as pd
 txt = "\033[31m WELCOME TO ALL-IN-ONE VENDING MACHINE\033[0m"
@@ -115,7 +115,7 @@ while True:
         else:
             print('Enter input from the above choices only')
     else:
-        #Finally, the total cost of the items purchased is displayed under 'FINAL CONFIRMATION'
+        #Finally, the total cost and the remaining balance of the items purchased is displayed under 'FINAL CONFIRMATION'
         print("\n\033[32m*************** FINAL CONFIRMATION ***************\033[0m")
         print('\nYour total cost for all the items will be:',sum)
         print("Your balance is:", g-sum)
